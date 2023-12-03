@@ -10,6 +10,7 @@ let totalGames = 0;
 let maxCounts = {};
 let maxPower = 0;
 let power = 0;
+
 for (const line of lines) {
   const index = lines.indexOf(line) + 1;
   const gameParts = line.split(";");
